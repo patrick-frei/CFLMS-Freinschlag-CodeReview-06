@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <title>Code</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        <span>Expore</span> Barca
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav nav-pills navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#places">@places</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#restaurants">@restaurants</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">@events</a>
+          </li>
+          <li class="nav-item mx-2">
+            <span class="navbar-text">
+              Order by date:
+            </span>
+              <a class="nav-link d-inline" href="index-asc.html">asc ▲</a>
+              <a class="nav-link d-inline" href="index-desc.html">desc ▼</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+    <div id="main" class="container">
+    <div id="places" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Places</h1>
+        <p class="lead">Explore Barelona's best places.</p>
+      </div>
+    </div>
+    <div id="locations-content" class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+    </div>
+    <div id="restaurants" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Restaurants</h1>
+        <p class="lead">Explore Barelona's best restaurants.</p>
+      </div>
+    </div>
+    <div id="restaurants-content" class="row row-cols-1 row-cols-md-2 row-cols-lg-4"></div>
+    <div id="events" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Events</h1>
+        <p class="lead">Explore Barelona's best events.</p>
+      </div>
+    </div>
+    <div id="events-content" class="row row-cols-1 row-cols-md-2 row-cols-lg-4"></div>
+  </div>
+  <footer class="page-footer font-small bg-light pt-4">
+    <div class="footer-copyright text-center py-3">
+      © 2020 Copyright Freinschlag
+    </div>  
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

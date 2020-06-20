@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+.navbar-brand {
+  font-family: 'Permanent Marker', cursive;
+}
+.navbar-brand span {
+  color: #666;
+}
+.nav-link {
+  color: #666;
+}
+.nav-link:visited {
+  color: #666;
+}
+#main {
+  margin-top: 5em;
+}
+.card-text {
+  overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
